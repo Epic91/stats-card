@@ -61,7 +61,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <div class="stat">
+    <h2 class="stat-number">10k+</h2>
+    <div class="stat-header">companies</div>
+  </div>
+  If I want to display a top text and a bottom text and have them styled differently, first I have to put wrap it inside a container and then style the first word however I want and the second second wrap in another div. 
 ```
 ```css
 .proud-of-this-css {
