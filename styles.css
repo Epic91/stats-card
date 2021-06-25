@@ -7,11 +7,17 @@ body{
     padding: 200px;
 }
 
-h1, h3 {
+h3 {
     color: white;
 }
 
-em{
+h1 {
+ color: white;
+ font-family: 'Lexend Deca', sans-serif;
+ font-weight: 400;
+}
+
+.insight-text{
     color: hsl(277, 64%, 61%);
 }
 
@@ -22,7 +28,13 @@ em{
 }
 
 .container{
-    padding: 100px
+    padding: 100px;
 }
+
+.stats-container {
+    display: flex;
+}
+
+
 
 
