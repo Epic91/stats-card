@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,37 +17,27 @@
 </head>
 <body>
   <div class="card">
-
     <div class="container">
-      <h1>Get <span class="insight-text">insights</span> that help your business grow.</h1>
-        <p>
+      <h1>Get <span class="insight-text">insights</span> that help your business grow.</h1><br>
+        <section class="info">
           Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.
-        </p>
-        <div class="stats-container">
-          <div class="stat">
-            <h2 class="stat-number">10k+</h2>
-            <div class="stat-header">companies</div>
-          </div>
-          <div class="stat">
-            <h2 class="stat-number">314</h2>
-            <div class="stat-header">templates</div>
-          </div>
-          <div class="stat">
-            <h2 class="stat-number">12M+</h2>
-            <div class="stat-header">queries</div>
-          </div>
+        </section>
+        <div class="analytics">
+          <div class="analytic-content"><h3>10k+</h3><span class="analytic-category">COMPANIES</span></div>
+          <div class="analytic-content"><h3>314</h3><span class="analytic-category">TEMPLATES</span></div>
+          <div class="analytic-content"><h3>12M+</h3><span class="analytic-category">QUERIES</span></div>
         </div>
       </div>
-      <div class="image-container">
-        <img 
-          src="/images/image-header-desktop.jpg" 
-          alt="working"
-          width="800">
+      <div class="image-wrapper">
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="employees-talking"
+          class="image-header"
+        />
       </div>
-  </div>
-
-  <div class="attribution">
+    </div>
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Evelyn Hernandez</a>.
   </div>
